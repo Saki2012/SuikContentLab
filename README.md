@@ -97,3 +97,24 @@ SuikContentLab 目前從 LinkedIn 技術內容與 AI Agent Harness 開始。
 目前最重要的事情只有一件：
 
 **持續把值得留下的技術思考，變成可以被搜尋、引用、版本追蹤與再次利用的資產。**
+
+## Git LFS
+
+SuikContentLab 使用 Git LFS 管理不適合直接進入一般 Git history 的二進位素材。
+
+目前 `.gitattributes` 會將以下類型交由 Git LFS 追蹤：
+
+- 圖片：PNG、JPG / JPEG、GIF、WebP、AVIF、BMP、TIFF、ICO、SVG
+- PDF：PDF
+- Microsoft Office：Word、Excel、PowerPoint 及常見範本 / Macro 格式
+
+本機第一次使用此 Repository 前，需先安裝並初始化 Git LFS：
+
+```bash
+git lfs install
+```
+
+之後正常使用 `git add / commit / push` 即可，符合規則的新檔案會自動以 LFS Pointer 方式提交。
+
+> `.gitattributes` 只會讓「之後加入 / 重新加入 Git 的檔案」進入 LFS；若 Repository 未來已存在大型二進位檔並需要把既有 Git history 一併遷移，需另外使用 `git lfs migrate`，不要直接改寫公開歷史。
+
