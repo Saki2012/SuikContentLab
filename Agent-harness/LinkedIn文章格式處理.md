@@ -300,7 +300,68 @@ CTA 不需要全部同時出現。
 
 ---
 
-## 9. Repository 與 LinkedIn 版本
+## 9. Hashtag / #標籤
+
+LinkedIn 支援 `#hashtag`，可用來標示貼文主題，也有助於被相關主題的讀者搜尋與發現。
+
+SuikContentLab 的 LinkedIn 發布版本，原則上應在文章最後補上「少量、精準、與本文直接相關」的 Hashtag。
+
+### 使用原則
+
+- Hashtag 是內容分類與發現輔助，不是主要流量來源。
+- 優先選擇與文章核心主題直接相關的標籤。
+- 不為了曝光塞入與內容無關的熱門標籤。
+- 不要一次堆太多標籤，避免文章尾端像關鍵字農場。
+- 英文技術標籤通常較容易與國際技術內容接軌；若主題有明確中文社群語境，也可以搭配中文標籤。
+- 同一系列文章可保留 1～2 個穩定標籤，其他依文章主題調整。
+
+### SuikContentLab 內部預設
+
+若沒有特殊理由，先以 **3～5 個 Hashtag** 為預設上限。
+
+這是 SuikContentLab 的內容策略，不是 LinkedIn 平台硬性規定。
+
+例如架構文章可以使用：
+
+```text
+#SoftwareArchitecture #SoftwareEngineering #DotNet #SystemDesign
+```
+
+AI 輔助工程文章可以使用：
+
+```text
+#AIAssistedDevelopment #AICoding #SoftwareEngineering #DeveloperTools
+```
+
+### 放置位置
+
+Hashtag 優先放在正文與 CTA 之後，與主要內容留一個空行。
+
+例如：
+
+```text
+💬 如果你手上的專案也有類似狀況，也可以留言或私訊我聊聊。
+
+#SoftwareArchitecture #SoftwareEngineering #DotNet #SystemDesign
+```
+
+### 選標籤時的判斷
+
+發布前先問：
+
+- 這個標籤真的描述本文核心內容嗎？
+- 目標讀者會用這個詞搜尋或辨識內容嗎？
+- 是否太廣泛，例如只有 `#Technology`、`#AI`，但沒有更精準的主題？
+- 是否有 1～2 個更能代表這篇文章的專業標籤？
+- 有沒有只是因為熱門，而其實與文章關係不大？
+
+原則：
+
+> **標籤寧可少而準，不要多而散。**
+
+---
+
+## 10. Repository 與 LinkedIn 版本
 
 Repository 仍可以保留 Front Matter：
 
@@ -332,7 +393,7 @@ LinkedIn-ready Body
 
 ---
 
-## 10. 發布前格式檢查
+## 11. 發布前格式檢查
 
 發布前快速確認：
 
@@ -347,6 +408,7 @@ LinkedIn-ready Body
 - 編號是否真的代表分項？
 - 技術名詞是否保持原本精準度？
 - CTA 是否自然？
+- 是否已補上少量、精準且與本文直接相關的 Hashtag？
 - 純文字貼上 LinkedIn 後，文章是否仍然完整？
 
 最後原則：
