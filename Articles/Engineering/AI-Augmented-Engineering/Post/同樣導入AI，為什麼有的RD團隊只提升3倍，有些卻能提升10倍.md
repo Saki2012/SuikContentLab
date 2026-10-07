@@ -1,6 +1,6 @@
 ---
 title: "同樣導入 AI，為什麼有的 RD 團隊只提升 3 倍，有些卻能提升 10 倍？"
-status: review
+status: published
 platform:
   - linkedin
 content_type: post
@@ -11,7 +11,7 @@ topics:
   - engineering-productivity
   - ai-native
 created_at: 2026-10-07
-published_at:
+published_at: 2026-10-07
 linkedin_url:
 ---
 
